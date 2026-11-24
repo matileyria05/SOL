@@ -6,7 +6,7 @@ window.SOL = {
   direccion: null,        // ej.: "Av. Siempreviva 742, Vicente López"
   telefono: null,         // ej.: "011 4000-0000"
   whatsapp: null,         // solo números, con 549 y característica: "5491140000000"
-  mail: null,             // ej.: "info@remaxsol.com.ar"
+  mail: null,             // ej.: "info@remax-sol.com.ar"
   instagram: null,        // usuario sin @: "remaxsol"
   horario: null,          // ej.: "Lunes a viernes de 9:30 a 19, sábados de 10 a 13"
   portalRemax: null,      // enlace a la página de la oficina en remax.com.ar

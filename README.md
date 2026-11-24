@@ -26,4 +26,4 @@ El manual de marca pide que la portada de todo sitio REMAX muestre el nombre de 
 1. En [dash.cloudflare.com](https://dash.cloudflare.com): Workers & Pages → Create → Pages → *Connect to Git* → elegir el repositorio `sol`.
 2. Framework preset: *None*. Build command: vacío. Build output directory: `/`.
 3. *Save and Deploy*. Queda en `sol-xxx.pages.dev`; cada cambio que se sube a `main` se publica solo.
-4. Cuando RAU autorice el dominio (`remaxsol.com.ar`), sumarlo en Custom domains.
+4. Dominio propio: `remax-sol.com.ar` (registrado en NIC Argentina). Delegarlo a Cloudflare y sumarlo en Custom domains.
