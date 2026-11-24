@@ -21,9 +21,14 @@ Los formularios de tasación y de agentes no guardan datos en ningún servidor: 
 
 El manual de marca pide que la portada de todo sitio REMAX muestre el nombre de la oficina, su dirección, teléfono y mail, y la leyenda de independencia. Completar en `datos.js` por lo menos `direccion`, `telefono`, `mail`, `whatsapp` y `portalRemax`, y agregar el logo oficial cuando RAU lo entregue.
 
+## Cómo quedó publicada (noviembre de 2026)
+
+- **Dirección:** [remax-sol.pages.dev](https://remax-sol.pages.dev), proyecto de Cloudflare Pages `remax-sol`, conectado a la rama `main` de este repositorio. Cada cambio que se sube se publica solo.
+- **Dominio:** `remax-sol.com.ar`, agregado a la misma cuenta de Cloudflare y delegado desde NIC Argentina a `gloria.ns.cloudflare.com` y `kaiser.ns.cloudflare.com`. Se conecta en el proyecto, en *Dominios personalizados* (`remax-sol.com.ar` y `www.remax-sol.com.ar`).
+
 ## Publicar en Cloudflare Pages (una sola vez)
 
-1. En [dash.cloudflare.com](https://dash.cloudflare.com): Workers & Pages → Create → Pages → *Connect to Git* → elegir el repositorio `sol`.
+1. En [dash.cloudflare.com](https://dash.cloudflare.com): Workers & Pages → Create → *Continúa en Pages* (el flujo de Pages, no el de Workers) → *Import an existing Git repository* → elegir el repositorio `SOL`.
 2. Framework preset: *None*. Build command: vacío. Build output directory: `/`.
 3. *Save and Deploy*. Queda en `sol-xxx.pages.dev`; cada cambio que se sube a `main` se publica solo.
 4. Dominio propio: `remax-sol.com.ar` (registrado en NIC Argentina). Delegarlo a Cloudflare y sumarlo en Custom domains.
